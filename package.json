@@ -1,0 +1,16 @@
+{
+  "name": "moderncss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss-cli@latest build -i ./src/styles.css -o ./public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "tailwindcss": "^2.2.7"
+  }
+}
